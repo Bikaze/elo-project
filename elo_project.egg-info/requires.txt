@@ -4,6 +4,3 @@ numpy
 ipykernel
 pymongo
 certifi
-
-
--e .
