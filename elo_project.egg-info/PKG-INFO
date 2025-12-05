@@ -8,5 +8,6 @@ Requires-Dist: numpy
 Requires-Dist: ipykernel
 Requires-Dist: pymongo
 Requires-Dist: certifi
+Requires-Dist: scikit-learn
 Dynamic: author
 Dynamic: requires-dist

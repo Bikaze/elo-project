@@ -4,6 +4,6 @@ numpy
 ipykernel
 pymongo
 certifi
-
+scikit-learn
 
 -e .
