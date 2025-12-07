@@ -9,5 +9,7 @@ Requires-Dist: ipykernel
 Requires-Dist: pymongo
 Requires-Dist: certifi
 Requires-Dist: scikit-learn
+Requires-Dist: dill
+Requires-Dist: pyaml
 Dynamic: author
 Dynamic: requires-dist

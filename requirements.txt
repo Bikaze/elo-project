@@ -5,5 +5,7 @@ ipykernel
 pymongo
 certifi
 scikit-learn
+dill
+pyaml
 
 -e .
