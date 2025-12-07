@@ -1,8 +1,8 @@
-FROM python:3.13.10-alpine3.23
+FROM python:3.10-slim
 WORKDIR /app
 COPY . /app
 
-RUN apt update -y && apt install awscli -y
+RUN apt-get update && apt-get install -y awscli
 
-RUN apt-get update && pip install -r requirements.txt
+RUN pip install -r requirements.txt
 CMD ["python3", "app.py"]
