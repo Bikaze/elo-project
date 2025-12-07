@@ -39,9 +39,9 @@ import dagshub
 os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/Bikaze/elo-project.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"] = "Bikaze"
 os.environ["MLFLOW_TRACKING_PASSWORD"] = "ef8a728b951a1b77751f6dab053724927014a067"
-os.environ["DAGSHUB_USER_TOKEN"] = "ef8a728b951a1b77751f6dab053724927014a067"
+# os.environ["DAGSHUB_USER_TOKEN"] = "ef8a728b951a1b77751f6dab053724927014a067"
 
-dagshub.init(repo_owner="Bikaze", repo_name="elo-project", mlflow=True)
+# dagshub.init(repo_owner="Bikaze", repo_name="elo-project", mlflow=True)
 
 
 class ModelTrainer:
