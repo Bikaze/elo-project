@@ -8,3 +8,5 @@ logs/
 prediction_output/
 elo_project.egg-info/
 .env
+Artifacts/
+final_model/

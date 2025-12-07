@@ -67,16 +67,14 @@ class ModelTrainer:
             mlflow.log_metric("f1_score", f1_score)
             mlflow.log_metric("precision", precision_score)
             mlflow.log_metric("recall_score", recall_score)
-            # mlflow.sklearn.log_model(best_model, "model")
-            # # Model registry does not work with file store
+
+            # Model registry does not work with file store
             # if tracking_url_type_store != "file":
             #     # Register the model
             #     # There are other ways to use the Model Registry, which depends on the use case,
             #     # please refer to the doc for more information:
             #     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-            #     mlflow.sklearn.log_model(
-            #         best_model, "model", registered_model_name=best_model
-            #     )
+            #     mlflow.sklearn.log_model(best_model, "model")
             # else:
             #     mlflow.sklearn.log_model(best_model, "model")
 

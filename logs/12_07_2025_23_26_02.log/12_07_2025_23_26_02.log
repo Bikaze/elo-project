@@ -1,6 +1,0 @@
-[2025-12-07 23:26:05,785] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2025-12-07 23:26:05,791] 107 dagshub - INFO - Accessing as Bikaze
-[2025-12-07 23:26:07,013] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Bikaze/elo-project "HTTP/1.1 200 OK"
-[2025-12-07 23:26:08,140] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2025-12-07 23:26:08,143] 107 dagshub - INFO - Initialized MLflow to track repo "Bikaze/elo-project"
-[2025-12-07 23:26:08,144] 107 dagshub - INFO - Repository Bikaze/elo-project initialized!
