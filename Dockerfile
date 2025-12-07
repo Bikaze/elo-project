@@ -5,4 +5,5 @@ COPY . /app
 RUN apt-get update && apt-get install -y awscli
 
 RUN pip install -r requirements.txt
+EXPOSE 8080
 CMD ["python3", "app.py"]
