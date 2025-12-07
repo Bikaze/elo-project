@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+Network_Data/
+logs/
+prediction_output/
+elo_project.egg-info/
+.env
