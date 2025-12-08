@@ -61,6 +61,19 @@ The model looks at three main categories of features (see full list in [`data_sc
 
 ---
 
+## 📂 Project Modules
+
+Explore the detailed documentation for each module:
+
+| Module | Description |
+| :--- | :--- |
+| [**📦 networksecurity/**](networksecurity/README.md) | The core package containing all source code. |
+| [**🧩 components/**](networksecurity/components/README.md) | Detailed breakdown of Ingestion, Validation, Transformation, and Training. |
+| [**🚀 pipeline/**](networksecurity/pipeline/README.md) | How the training pipeline is orchestrated. |
+| [**📜 data_schema/**](data_schema/README.md) | The data contract and schema definitions. |
+
+---
+
 ## 🏗️ MLOps Architecture & Pipeline
 
 PhishNet is built on a **Recurrent Pipeline Architecture**. This ensures that every stage of the machine learning lifecycle is modular, reproducible, and traceable.
@@ -94,6 +107,7 @@ The project exposes a high-performance REST API built with **FastAPI**.
 ### 1. Interactive Prediction
 
 The `/predict` endpoint allows users to upload a CSV file containing URL features.
+
 - **Input**: A CSV file (use [`valid_data/test.csv`](valid_data/test.csv) for testing).
 - **Process**: The system loads the saved model and preprocessor artifacts.
 - **Output**: An HTML table displaying the original data alongside a new `predicted_column` (**0 for Phishing**, **1 for Safe**).
@@ -133,7 +147,8 @@ The project utilizes a robust **Continuous Integration and Continuous Deployment
 
 ### Prerequisites
 
-* Docker
+- Docker
+
 - Python 3.10+
 - MongoDB Connection String
 
